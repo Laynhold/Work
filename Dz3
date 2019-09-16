@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Andry {
+	
+	public static void main (String[] args) {
+		
+		Scanner in = new Scanner (System.in);
+		System.out.print("Первое слагаемое: ");
+		int num1 = in.nextInt();
+		System.out.print("Пторое слагаемое: ");
+		int num2 = in.nextInt();
+		int summ = num1 + num2;
+		System.out.print("Результат: " + summ);
+		System.out.print('\n');
+		System.out.print("Вычитаемое: ");
+		int num3 = in.nextInt();
+		System.out.print("Вычитатель: ");
+		int num4 = in.nextInt();
+		int summ2 = num3 - num4;
+		System.out.print("Результат: "+ summ2);
+		System.out.print('\n');
+		System.out.print("Первый множитель: ");
+		int num5 = in.nextInt();
+		System.out.print("Второй множитель: ");
+		int num6 = in.nextInt();
+		int summ3 = num5 * num6;
+		System.out.print("Результат: "+ summ3);
+		System.out.print('\n');
+		System.out.print("Делимое: ");
+		float num7 = in.nextInt();
+		System.out.print("Делитель: ");
+		float num8 = in.nextInt();
+		float summ4 = num7/num8;
+		System.out.print("Результат: "+ summ4);
+		in.close();
+	}
+
+}
