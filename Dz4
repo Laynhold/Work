@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Dzzz3 {
+	public static void main(String args[]){
+		Scanner in = new Scanner (System.in);
+		System.out.print("Первое число: ");
+		int num = in.nextInt();
+		System.out.print("Второе число: ");
+		int num1 = in.nextInt();
+		System.out.print("Третье число: ");
+		int num2 = in.nextInt();
+		float num3 = (num + num1 + num2)/3;
+		System.out.print("Среднее арифметическое число: " + num3);
+	}
+
+}
