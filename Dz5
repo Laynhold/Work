@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Dz5 {
+	public static void main(String args[]){
+		Scanner in = new Scanner (System.in);
+		System.out.print("Первое число: ");
+		int num = in.nextInt();
+		System.out.print("Второе число: ");
+		int num1 = in.nextInt();
+		System.out.print("Третье число: ");
+		int num2 = in.nextInt();
+		
+		if (num>num1 & num1>num2) {
+			System.out.print("Самое большее число: " + num);
+		}
+		else if(num1>num & num1>num2) {
+			System.out.print("Самое большее число: " + num1);
+		}
+		else {System.out.print("Самое большее число: " + num2);}
+	}
+
+}
