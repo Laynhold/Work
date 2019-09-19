@@ -1,0 +1,112 @@
+import java.util.Scanner;
+
+public class moiclass {
+	public static void main(String args[]){
+		Scanner in = new Scanner (System.in);
+		System.out.print("Введите номер значения: ");
+		int fun = in.nextInt();
+		switch (fun){
+        case 1 : 
+		System.out.print("1×1=1\r\n" + 
+				"1×2=2\r\n" + 
+				"1×3=3\r\n" + 
+				"1×4=4\r\n" + 
+				"1×5=5\r\n" + 
+				"1×6=6\r\n" + 
+				"1×7=7\r\n" + 
+				"1×8=8\r\n" + 
+				"1×9=9\r\n" + 
+				"1×10=10\r\n" + 
+				"");
+        break;
+        case 2 : 
+		System.out.print("2 x 2= 4\r\n" + 
+				"2 x 3 = 6\r\n" + 
+				"2 x 4 = 8\r\n" + 
+				"2 x 5 = 10\r\n" + 
+				"2 x 6 = 12\r\n" + 
+				"2 x 7 = 14\r\n" + 
+				"2 x 8 = 16\r\n" + 
+				"2 x 9 = 18\r\n" + 
+				"");
+        break;
+        case 3 :
+		System.out.print("3 x 2 = 6\r\n" + 
+				"3 x 3 = 9\r\n" + 
+				"3 x 4 = 12\r\n" + 
+				"3 x 5 = 15\r\n" + 
+				"3 x 6 = 18\r\n" + 
+				"3 x 7 = 21\r\n" + 
+				"3 x 8 = 24\r\n" + 
+				"3 x 9 = 27");
+        break;
+        case 4 : 
+		System.out.print("4 x 2 = 8\r\n" + 
+				"4 x 3 = 12\r\n" + 
+				"4 x 4 = 16\r\n" + 
+				"4 x 5 = 20\r\n" + 
+				"4 x 6 = 24\r\n" + 
+				"4 x 7 = 28\r\n" + 
+				"4 x 8 = 32\r\n" + 
+				"4 x 9 = 36");
+        break;
+        case 5 : 
+		System.out.print("5 x 2 = 10\r\n" + 
+				"5 x 3 = 15\r\n" + 
+				"5 x 4 = 20\r\n" + 
+				"5 x 5 = 25\r\n" + 
+				"5 x 6 = 30\r\n" + 
+				"5 x 7 = 35\r\n" + 
+				"5 x 8 = 40\r\n" + 
+				"5 x 9 = 45");
+        break;
+        case 6 : 
+		System.out.print("6 x 2 = 12\r\n" + 
+				"6 x 3 = 18\r\n" + 
+				"6 x 4 = 24\r\n" + 
+				"6 x 5 = 30\r\n" + 
+				"6 x 6 = 36\r\n" + 
+				"6 x 7 = 42\r\n" + 
+				"6 x 8 = 48\r\n" + 
+				"6 x 9 = 54\r\n" + 
+				"");
+        break;
+        case 7 :
+		System.out.print("7 x 2 = 14\r\n" + 
+				"7 x 3 = 21\r\n" + 
+				"7 x 4 = 28\r\n" + 
+				"7 x 5 = 35\r\n" + 
+				"7 x 6 = 42\r\n" + 
+				"7 x 7 = 49\r\n" + 
+				"7 x 8 = 56\r\n" + 
+				"7 x 9 = 63\r\n" + 
+				"");
+        break;
+        case 8 : 
+	     System.out.print("8 x 2 = 16\r\n" + 
+		"8 x 3 = 24\r\n" + 
+		"8 x 4 = 32\r\n" + 
+		"8 x 5 = 40\r\n" + 
+		"8 x 6 = 48\r\n" + 
+		"8 x 7 = 56\r\n" + 
+		"8 x 8 = 64\r\n" + 
+		"8 x 9 = 72");
+        break;
+        case 9 : 
+	     System.out.print("9 x 2 = 18\r\n" + 
+		"9 x 3 = 27\r\n" + 
+		"9 x 4 = 36\r\n" + 
+		"9 x 5 = 45\r\n" + 
+		"9 x 6 = 54\r\n" + 
+		"9 x 7 = 63\r\n" + 
+		"9 x 8 = 72\r\n" + 
+		"9 x 9 = 81");
+        break;
+        default : 
+		System.out.print("Невозможно");
+
+}
+	
+	}
+
+}
