@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Dz9 {
+	public static void main(String args[]){
+		Scanner in = new Scanner(System.in);
+		System.out.print("День недели: ");
+		String day = in.next();
+		in.close();	
+		switch(day){
+		case "Понедельник":
+		case "понедельник":
+			System.out.print("МДК 01.02 Прикладное 1-2 час \n" + "Английский язык 1-2 час \n" + "МДК 01.01 Системное 1-2 час \n" + "Теория алгоритмов 1-2 час \n");
+			break;
+		case "Вторник":
+		case "вторник":
+			System.out.print("ТВиМС 1-2 час \n" + "МДК 01.01 Системное 1-2 час \n" + "Безопасность жизнедеятельности 1-2 час \n" + "МДК 01.02 Прикладное 1-2 час \n");
+			break;
+		case "Среда":
+		case "среда":
+			System.out.print("Теория алгоритмов 1-2 час \n" + "МДК 01.02 Прикладное 1-2 час \n" + "Основы сетевых технологий 1-2 час \n");
+			break;
+		case "Четверг":
+		case "четверг":
+			System.out.print("Основы сетевых технологий \n" + "Безопасность жизнедеятельности 1-2 час \n" + "Физическая культура 1-2 час \n" + "МДК 01.02 Прикладное 1-2 час \n");
+			break;
+		case "Пятница":
+		case "пятница":
+			System.out.print("МДК 01.01 Системное 1-2 час \n" + "МДК 01.02 Прикладное 1-2 час \n" + "ТВиМС 1-2 час \n");
+			break;
+		case "Суббота":
+		case "суббота":
+			System.out.print("Не учебный день");
+			break;
+		default:
+			System.out.print("Такого дня нет");
+		}
+	}
+}
