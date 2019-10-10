@@ -1,0 +1,12 @@
+public class cicle1 {
+	public static void main(String args[]){
+		int i = 101;
+		int g = 0;
+		while (i <= 999){
+			g = i + g;
+			i+=2;
+		System.out.println("Сумма всех нечетных 3-значных чисел равна: " + g);
+		}
+
+	}
+}
