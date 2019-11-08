@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class dz16{
+	public static void main(String []args){
+		int [] mas = {84, 3, 51, 11, 99};
+		for (int i = 0; i < mas.length; i++){
+			int min = mas[i];
+			int min1 = i;
+			for (int j = i + 1; j < mas.length; j++){
+				if (mas[j] < min){
+					min = mas[j];
+					min1 = j;
+			if (i != min1){
+				int temp = mas[i];
+				mas[i] = mas[min1];
+				mas[min1] = temp;
+			}
+			System.out.println(Arrays.toString(mas));
+				}
+			}
+		}
+		}
+	}
