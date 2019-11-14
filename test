@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class d17 {
+	public static void main(String args[]){
+		Scanner in = new Scanner (System.in);
+		double a, b, c, D, x, x1, x2;
+		System.out.print("ax^2 + bx + c = 0" + '\n');
+		System.out.print("Ввести a: ");
+		a = in.nextDouble();
+		System.out.print("Ввести b: ");
+		b = in.nextDouble();
+		System.out.print("Ввести c: ");
+		c = in.nextDouble();
+		D = in.nextDouble();
+		x = in.nextDouble();
+		x1 = in.nextDouble();
+		x2 = in.nextDouble();
+		D = b * b - 4 * a * c;
+		if (D > 0){
+			x1 = (-b - Math.sqrt(D)) / (2 * a);
+			x2 = (-b + Math.sqrt(D)) / (2 * a);
+			System.out.print("Корни ур-я: x1 = " + x1 + ", x2= " + x2);
+		}
+		else if (D == 0){
+			x = -b / (2 * a);
+			System.out.print("Корень ур-я: x= " + x);
+		}
+		else{
+			System.out.print("Ур-е не имеет действительных корней.");
+		in.close();
+		}
+		}
+	}
