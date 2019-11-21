@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class dz17{
+	public static void main(String []args){
+		int [] mas = {21, 6, 234, 1, 567, 82, 71, 9, 10};
+		for (int i = 0; i < mas.length; i++){
+			int a = mas[i];
+			int b = i;
+			for (int j = i + 1; j < mas.length; j++){
+				if (mas[j] < a){
+					a = mas[j];
+					b = j;
+			if (i != b){
+				int temp = mas[i];
+				mas[i] = mas[b];
+				mas[b] = temp;
+			}
+			System.out.println(Arrays.toString(mas));
+				}
+			}
+		}
+		}
+}
