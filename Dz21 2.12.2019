@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class dz21 {
+	public static void main(String args []){
+		double a; 
+		int n;
+		System.out.println("Введите число: ");
+		Scanner in = new Scanner(System.in);
+		a = in.nextDouble();
+		n = in.nextInt();
+		in.close();
+		System.out.println("Число " + a + " в степени " + n + " равно " + stepen(a, n) + ".");
+	}
+static double stepen (double a, int n){
+	if (n == 1){
+	return a;
+	}
+	else{
+		return a*stepen (a, n-1);
+	}
+	
+}
+}
