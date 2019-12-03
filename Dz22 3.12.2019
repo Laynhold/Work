@@ -1,0 +1,13 @@
+public class dz22 {
+	public static void main(String args[]){
+		int a = 0;
+		int b = 1;
+		int c = 2;
+		int d = 3;
+		System.out.println("Нулевая степень: " + Math.pow(Math.PI, a));
+		System.out.println("Первая степень: " + Math.pow(Math.PI, b));
+		System.out.println("Вторая степень: " + Math.pow(Math.PI, c));
+		System.out.println("Третья степень: " + Math.pow(Math.PI, d));
+	}
+
+}
