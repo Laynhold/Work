@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class dz23 {
+	public static void main(String args[]){
+		try{
+		Scanner in = new Scanner (System.in);
+		System.out.println("Введите первое число: ");
+		int a = in.nextInt();
+		System.out.println("Введите второе число: ");
+		int b = in.nextInt();
+		int c = a / b;
+		System.out.println("Результат: " + c);
+		in.close();
+		}
+		catch (ArithmeticException c){ 
+		System.out.println("На ноль делить нельзя.");
+	}
+}
+}
