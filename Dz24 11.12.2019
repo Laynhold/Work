@@ -1,0 +1,33 @@
+public class dz24 {
+	public static void main(String args[]){
+		Person vetal = new Person ("Виталий", 5, 5);
+		vetal.displayInfo();
+		
+		Person den = new Person ("Денис", 4, 4);
+		den.displayInfo();
+		
+		Person dia = new Person ("Диана", 5, 5);	
+		dia.displayInfo();
+		
+		Person leva = new Person ("Леван", 3, 3);
+		leva.displayInfo();
+		
+		Person kirya = new Person ("Кирилл", 5, 5);
+		kirya.displayInfo();
+	}
+}
+    class Person{
+    	String name;
+    	int OST;
+    	int BJ;
+    	
+    	Person(String n, int o, int b){
+    		name = n;
+    		OST = o;
+    		BJ = b;
+    	}
+    	void displayInfo(){
+    		System.out.println("Имя: " + name + "\tОСТ: " + OST + "\tБЖ: " + BJ);
+    	
+    }
+}
