@@ -1,18 +1,18 @@
 public class dz24 {
 	public static void main(String args[]){
-		Person vetal = new Person ("Виталий", 5, 5);
+		Person vetal = new Person ("Киселюк Виталий", 5, 5);
 		vetal.displayInfo();
 		
-		Person den = new Person ("Денис", 4, 4);
+		Person den = new Person ("Ясельский Денис", 4, 4);
 		den.displayInfo();
 		
-		Person dia = new Person ("Диана", 5, 5);	
+		Person dia = new Person ("Кийко Диана", 5, 5);	
 		dia.displayInfo();
 		
-		Person leva = new Person ("Леван", 3, 3);
+		Person leva = new Person ("Шахбазян Леван", 3, 3);
 		leva.displayInfo();
 		
-		Person kirya = new Person ("Кирилл", 5, 5);
+		Person kirya = new Person ("Мошнин Кирилл", 5, 5);
 		kirya.displayInfo();
 	}
 }
@@ -27,7 +27,7 @@ public class dz24 {
     		BJ = b;
     	}
     	void displayInfo(){
-    		System.out.println("Имя: " + name + "\tОСТ: " + OST + "\tБЖ: " + BJ);
+    		System.out.println("Имя: " + name + '\n' + "Оценки по ОСТ: " + OST + '\n' + "Оценки по БЖ: " + BJ);
     	
     }
 }
