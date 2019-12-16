@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class dz26 {
+	public static void main(String args[]) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Введите первую действительную часть: ");
+		double x1 = in.nextDouble();
+		System.out.println("Введите первую мнимую часть: ");
+		double y1 = in.nextDouble();
+		System.out.println("Введите вторую действительную часть: ");
+		double x2 = in.nextDouble();
+		System.out.println("Введите вторую мнимую часть: ");
+		double y2 = in.nextDouble();
+		in.close();
+		double sumdest = x1 + x2;
+		double summnim = y1 + y2;
+		double razndest = x1 - x2;
+		double raznmnim = y1 - y2;
+		if (summnim < 0) {
+			System.out.println("Сумма " + sumdest +"" + summnim + "i");
+		}
+		if(summnim > 0){
+			System.out.println("Сумма " + sumdest + "+" + summnim + "i");
+		}
+		if(summnim == 0) {
+			System.out.println("Сумма " + sumdest);
+		}
+}
+}
