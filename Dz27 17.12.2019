@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class dz27 {
+	public static void main(String args[]){
+		Scanner in = new Scanner(System.in);
+		System.out.println("Введите первую X координату первого вектора: ");
+		double x1 = in.nextDouble();
+		System.out.println("Введите вторую Y координату первого вектора: ");
+		double y1 = in.nextDouble();
+		System.out.println("Введите третью Z координату первого вектора: ");
+		double z1 = in.nextDouble();
+		System.out.println("Введите первую X координату второго вектора: ");
+		double x2 = in.nextDouble();
+		System.out.println("Введите вторую Y координату второго вектора: ");
+		double y2 = in.nextDouble();
+		System.out.println("Введите третью Z координату второго вектора: ");
+		double z2 = in.nextDouble();
+		in.close();
+		double sumx = x1 + x2;
+		double sumy = y1 + y2;
+		double sumz = z1 + z2;
+		double raznx = x1 - x2;
+		double razny = y1 - y2;
+		double raznz = z1 - z2;
+		double umnojx = x1 * x2;
+		double umnojy = y1 * y2;
+		double umnojz = z1 * z2;
+		double sumvek = sumx + sumy + sumz;
+		double raznvek = raznx - razny - raznz;
+		double skalyar = umnojx + umnojy + umnojz;
+		double cos = umnojx + umnojy + umnojz / Math.sqrt(x1 * x1 + y1 * y2 + z1 * z2) * Math.sqrt(x2 * x2 + y2 * y2 + z2 * z2);
+		System.out.println("Сумма векторов: " + sumvek + '\n' + "Разность векторов: " + raznvek + '\n' + "Скалярное произведение векторов: " + skalyar + '\n' + "Косинус угла между векторами: " + cos);
+	}
+}
