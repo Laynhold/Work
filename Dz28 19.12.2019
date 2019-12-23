@@ -1,0 +1,57 @@
+public class dz28 {
+	public static void main(String[] args){
+		Person david = new Person ("Давид", 17, "45 09 399123", "123-456-789 00");
+		david.displayName();
+		david.displayAge();
+		//david.displayPasp();
+		//david.displaySnils();
+		System.out.println(david.name);
+		System.out.println(david.age);
+		//System.out.println(david.pasp);
+		//System.out.println(david.snils);
+		Person vetal = new Person ("Виталий", 18, "44 99 659113", "623-609-991 00");
+		vetal.displayName();
+		vetal.displayAge();
+		//vetal.displayPasp();
+		//vetal.displaySnils();
+		System.out.println(vetal.name);
+		System.out.println(vetal.age);
+		//System.out.println(vetal.pasp);
+		//System.out.println(vetal.snils);
+		Person leva = new Person ("Леван", 18, "35 76 897123", "153-009-431 00");
+		leva.displayName();
+		leva.displayAge();
+		//leva.displayPasp();
+		//leva.displaySnils();
+		System.out.println(leva.name);
+		System.out.println(leva.age);
+		//System.out.println(leva.pasp);
+		//System.out.println(leva.snils);
+	}
+}
+class Person {
+	
+	String name;
+	protected int age;
+	private String pasp;
+	private String snils;
+	
+	public Person (String name, int age, String pasp, String snils){
+		this.name = name;
+		this.age = age;
+		this.pasp = pasp;
+		this.snils = snils;
+	}
+	public void displayName(){
+		System.out.println("Имя: " + name + '\n');
+	}
+	protected void displayAge(){
+		System.out.println("Возраст: " + age + '\n');
+	}
+	private void displayPasp(){
+		System.out.println("Номер паспорта: " + pasp + '\n');
+	}
+	private void displaySnils(){
+		System.out.println("Номер снилса: " + snils + '\n');
+	}
+}
