@@ -1,0 +1,31 @@
+public class dz30 {
+	public static void main(String args[]){
+		int m, u, h, a, s, l, o, n, ch1, ch2, ch3, ch4;
+		for (m = 1; m < 10; m++){
+			for (u = 0; u < 10; u++){
+				for (h = 0; h < 10; h++){
+					for (a = 1; a < 10; a++){
+						for (s = 1; s < 10; s++){
+							for (l = 0; l < 10; l++){
+								for (o = 0; o < 10; o++){
+									for (n = 1; n < 10; n++){
+										ch1 = (1000* m) + (100 * u) + (10 * h) + a;
+										ch2 = (1000* m) + (100 * u) + (10 * h) + a;
+										ch3 = (1000* m) + (100 * u) + (10 * h) + a;
+										ch4 = (1000* s) + (100 * l) + (10 * o) + n;
+										if (ch1 + ch2 + ch3 == ch4) {
+											System.out.println(ch1 + " + " + ch2 + " + " + ch3 + " = " + ch4);
+										}
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+
+}
