@@ -1,4 +1,4 @@
-public class cicle1 {
+public class dz11 {
 	public static void main(String args[]){
 		int i = 101;
 		int g = 0;
